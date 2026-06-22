@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sen Sr. Sec. School</title>
+
+<style>
+body{
+    background:#f5f8f7c2;
+    font-family:'Poppins',sans-serif;
+}
+
+header{
+    background:linear-gradient(135deg,#c23bd1,#7C3AED);
+}
+
+.logo{
+    font-family:'Montserrat',sans-serif;
+    font-size:32px;
+    font-weight:800;
+    letter-spacing:1px;
+}
+
+.hero{
+    background:
+    linear-gradient(rgba(141, 21, 197, 0.75),rgba(17, 106, 129, 0.65)),
+    url('https://images.unsplash.com/photo-1509062522246-3755977927d7');
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-family:'Montserrat',sans-serif;
+    font-size:65px;
+    font-weight:800;
+}
+
+.btn{
+    background:linear-gradient(135deg,#d425dd,#b21cc6);
+    border-radius:50px;
+    padding:15px 35px;
+    transition:0.4s;
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 25px rgba(210, 135, 22, 0.4);
+}
+
+.title{
+    font-family:'Montserrat',sans-serif;
+    color:#0f0503;
+    font-weight:700;
+}
+
+.card{
+    border-radius:20px;
+    background:rgb(111, 197, 219);
+    box-shadow:0 15px 35px rgba(17, 59, 156, 0.08);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(16, 94, 229, 0.532);
+}
+
+.card h3{
+    color:#7C3AED;
+}
+
+.admission{
+    background:linear-gradient(135deg,#000000,#7C3AED);
+}
+
+button{
+    background:linear-gradient(135deg,#EC4899,#7C3AED);
+    border-radius:10px;
+    font-weight:600;
+}
+
+footer{
+    background:#06835d;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">Sen Sr. Sec. School</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#academics">Academics</a></li>
+<li><a href="#admission">Admission</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Welcome to Sen Sr. Sec. School</h1>
+<p>Learning Today, Leading Tomorrow</p>
+<a href="#admission" class="btn">Apply For Admission</a>
+</section>
+
+<section id="about">
+<h2 class="title">About Our School</h2>
+<div class="cards">
+<div class="card">
+<h3>Quality Education</h3>
+<p>Providing modern and value-based education for every student.</p>
+</div>
+
+<div class="card">
+<h3>Experienced Teachers</h3>
+<p>Dedicated faculty focused on academic excellence.</p>
+</div>
+
+<div class="card">
+<h3>Smart Classrooms</h3>
+<p>Technology-enabled learning environment.</p>
+</div>
+</div>
+</section>
+
+<section id="academics">
+<h2 class="title">Academics</h2>
+
+<div class="cards">
+<div class="card">
+<h3>Primary Section</h3>
+<p>Classes 1 to 5</p>
+</div>
+
+<div class="card">
+<h3>Middle Section</h3>
+<p>Classes 6 to 8</p>
+</div>
+
+<div class="card">
+<h3>Secondary Section</h3>
+<p>Classes 9 to 10</p>
+</div>
+
+<div class="card">
+<h3>Senior Secondary</h3>
+<p>Science, Commerce & Arts</p>
+</div>
+</div>
+</section>
+
+<section class="admission" id="admission">
+<h2 class="title" style="color:rgb(26, 155, 210);">Online Admission Form</h2>
+
+<form>
+    
+<input type="text" placeholder="Student Name" required>
+<input type="text" placeholder="Father's Name" required>
+<input type="text" placeholder="Mother's Name" required>
+<input type="date" required>
+
+<select required>
+<option>Select Class</option>
+<option>Class 1</option>
+<option>Class 2</option>
+<option>Class 3</option>
+<option>Class 4</option>
+<option>Class 5</option>
+<option>Class 6</option>
+<option>Class 7</option>
+<option>Class 8</option>
+<option>Class 9</option>
+<option>Class 10</option>
+<option>Class 11</option>
+<option>Class 12</option>
+</select>
+
+<input type="email" placeholder="Email Address">
+<input type="tel" placeholder="Mobile Number">
+
+<textarea rows="4" placeholder="Address"></textarea>
+
+<button type="submit">Submit Admission Form</button>
+</form>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScC7HtiU5WaXhjiHRvuLMBZA5BknXbbnYMUeIAGJm3FJf0rHg/viewform?embedded=true" width="640" height="1156" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</section>
+
+<section id="contact">
+<h2 class="title">Contact Us</h2>
+
+<div class="cards">
+<div class="card">
+<h3>Address</h3>
+<p>Sen Sr. Sec. School, Rajasthan, India</p>
+</div>
+
+<div class="card">
+<h3>Phone</h3>
+<p>+91 XXXXX XXXXX</p>
+</div>
+
+<div class="card">
+<h3>Email</h3>
+<p>info@senschool.com</p>
+</div>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Sen Sr. Sec. School | All Rights Reserved</p>
+</footer>
+
+</body>
+<!-- Chatbase AI Chatbot -->
+<script>
+(function(){
+if(!window.chatbase||window.chatbase("getState")!=="initialized"){
+window.chatbase=(...arguments)=>{
+if(!window.chatbase.q){window.chatbase.q=[]}
+window.chatbase.q.push(arguments)
+};
+window.chatbase=new Proxy(window.chatbase,{
+get(target,prop){
+if(prop==="q"){return target.q}
+return(...args)=>target(prop,...args)
+}
+});
+}
+
+const onLoad=function(){
+const script=document.createElement("script");
+script.src="https://www.chatbase.co/embed.min.js";
+script.id="HpJ3nLC97QIGL_rRtK7Zp";
+script.domain="www.chatbase.co";
+document.body.appendChild(script);
+};
+
+if(document.readyState==="complete"){
+onLoad();
+}else{
+window.addEventListener("load",onLoad);
+}
+})();
+</script>
+</html>
+
+
